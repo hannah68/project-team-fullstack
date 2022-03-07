@@ -1,5 +1,6 @@
 const Category = (props) => {
 	const { changeHandler } = props;
+	// test sth
 
 	return (
 		<div className="category-container">
