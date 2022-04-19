@@ -1,11 +1,15 @@
 .forum {
-	grid-area: main;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0 2rem;
 }
 .forum-container {
-	width: 80%;
-	margin: 3rem;
+	width: 100%;
+	/* width: 80%; */
+	/* margin: 0 auto; */
+	/* margin: 3rem; */
 	/* background-color: #c3c3c3; */
 	background-color: #e6e6e6;
 	/* color: #fff; */
@@ -14,6 +18,11 @@
 	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
 		0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
 	border: 0;
+}
+
+.forum-section{
+	display: flex;
+	gap: 2rem;
 }
 
 .card {
@@ -193,8 +202,8 @@
 .create-post-container{
 	display: flex;
 	flex-direction: column;
-	margin: 3rem 3rem 0 3rem;
-	width: 80%;
+	margin-top: 3rem;
+	width: 100%;
 }
 
 
@@ -290,4 +299,15 @@
 
 .category-container label{
 	padding-right: 5px;
+}
+
+.forum-list{
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	margin: 3rem 0;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
 }

@@ -1,8 +1,8 @@
 .footer-container {
 	width: 100%;
 	background-color: #dbdbdb;
-	grid-area: footer;
-	position: absolute;
+	/* grid-area: footer; */
+	/* position: absolute; */
 	bottom: 0;
 }
 

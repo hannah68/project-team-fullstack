@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 
 import Post from './Post';
 import PostForm from './forms/PostForm';
+import LeftMenu from '../../LeftMenu';
 
 import { FORUM_URL } from '../../config';
 
@@ -29,7 +30,9 @@ const Forum = (props) => {
     }, [newComment]);
 
     return (
-        <div className="forum">
+        <div className="forum-section">
+            <LeftMenu/>
+            <div className="forum">
             <div className="create-post-container">
                 <button
                     className="create-post-user-btn"
@@ -53,6 +56,8 @@ const Forum = (props) => {
                     })}
             </div>
         </div>
+        </div>
+        
     );
 };
 
