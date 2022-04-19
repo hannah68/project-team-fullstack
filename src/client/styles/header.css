@@ -1,7 +1,7 @@
 header {
 	width: 100%;
 	font-size: 1.3rem;
-	grid-area: header;
+	/* grid-area: header; */
 	position: sticky;
 	top: 0;
 	z-index: 99;
@@ -52,13 +52,14 @@ header {
 
 /* sign in form */
 .signIn {
-	grid-area: main;
+	/* grid-area: main; */
 	background-image: url("/public/assets/gen1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 20% 50%;
 	margin: 3rem;
 	color: #000;
+	height: 100vh;
 }
 
 .signin-container {
@@ -119,13 +120,14 @@ header {
 
 /* sign up form */
 .signup {
-	grid-area: main;
+	/* grid-area: main; */
 	color: #000;
 	margin: 3rem;
 	background-image: url("/public/assets/gen1.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 20% 50%;
+	height: 100vh;
 }
 
 .signup-form {

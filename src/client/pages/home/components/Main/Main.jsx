@@ -1,8 +1,12 @@
+import LeftMenu from '../../../../LeftMenu';
 import '../../../../styles/app.css';
+
 
 const Main = () => {
     return (
         <main className="homepage-main">
+            <LeftMenu/>
+            <div className="main-section">
             <section className="top-5-pokemon-section">
                 <h1>Top 5 Pokemon</h1>
                 <ul className="top-pokemon-list">
@@ -102,6 +106,8 @@ const Main = () => {
                     </li>
                 </ul>
             </section>
+            </div>
+            
         </main>
     );
 };

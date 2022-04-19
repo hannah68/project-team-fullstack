@@ -8,7 +8,6 @@ import Forum from './pages/forum/Forum';
 import Home from './pages/home/Home';
 import Header from './Header';
 import Leaderboard from './pages/leaderboard/Leaderboard';
-import LeftMenu from './LeftMenu';
 import Login from './pages/login/Login';
 
 import { HTTP_METHOD, PAGE_LINK, LOCAL_STORAGE, USER_URL } from './config';
@@ -62,7 +61,6 @@ const App = () => {
                 user={user}
                 setUser={setUser}
             />
-            <LeftMenu />
             <Routes>
                 <Route path={PAGE_LINK.HOME} element={<Home />} />
                 <Route

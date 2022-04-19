@@ -15,27 +15,18 @@ body {
   min-height: 100vh;
 }
 
-.app {
-  display: grid;
-  grid-template:
-    "header header" 5rem
-    "leftMenu main" 1fr
-    "footer footer" 5rem/
-    0.3fr 0.7fr;
-}
 
 /* home-container */
 .home-container {
-  grid-area: main;
+  /* grid-area: main; */
   z-index: 1;
+  padding: 0 2rem;
 }
 
 /* Main HomePage Styling*/
 .homepage-main {
-  display: grid;
-  grid-template-rows: 0.1fr 0.5fr 0.5fr 0.1fr;
-  margin-top: 4rem;
-  margin-right: 4rem;
+  display: flex;
+  gap: 2rem;
 }
 
 .top-pokemon-list,
