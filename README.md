@@ -36,4 +36,13 @@ This is a pokemon forum website that we created as a group project (PERN stack).
  - Run `npm run start`
 
 ## Credits
-my teammates are: 
+my teammates are: </br>
+<a href="https://github.com/polarbear23">
+  <img src="https://github.com/polarbear23.png?size=50">
+</a>
+<a href="https://github.com/bravint">
+  <img src="https://github.com/bravint.png?size=50">
+</a>
+<a href="https://github.com/alexamaingard">
+  <img src="https://github.com/alexamaingard.png?size=50">
+</a>
