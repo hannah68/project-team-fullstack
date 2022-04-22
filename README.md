@@ -1,6 +1,8 @@
 # Pokemon & King
 This is a pokemon forum website that we created as a group project (PERN stack).
 
+<img src='./public/assets/pokemon.gif' width="600px"/>
+
 ## Process
 1. Get Started with writing user stories.
 2. Diagramed the first version of ERD on Whimsical.
