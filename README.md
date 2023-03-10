@@ -4,12 +4,12 @@ This is a pokemon forum website that we created as a group project (PERN stack).
 <img src='./public/assets/pokemon.gif' width="600px"/>
 
 ## Process
-1. Get Started with writing user stories.
-2. Diagramed the first version of ERD on Whimsical.
+1. Get Started with writing **user stories**.
+2. Diagramed the first version of **ERD** on Whimsical.
 3. Discussed over how we envisioned the user interface should look.
 4. Drew the basic layout of the webpage on Figma.
 5. Researched how to implement any required technologies for the project that we were unfamiliar with.
-6. Used the Kanban board to keep track of the tasks.
+6. Used the **Kanban board** to keep track of the tasks.
 7. Communicated about team progress over Discord (sprint review every three days).
 8. Ran daily standup meeting.
 9. Implemented several features and functionalities.
